@@ -21,4 +21,4 @@ Conditional Messaging: The program generates personalized messages based on the 
 
 Overall, while the code may not employ cutting-edge technologies, it demonstrates effective use of basic techniques to create a user-friendly and precise quiz experience. The combination of interface management, timing controls, input validation, scoring mechanisms, and conditional messaging contributes to a technically sound and accurate quiz application.
 
-! [1234](https://www.youtube.com/watch?v=ve_o2kq4_jY)
+[thank you](https://www.youtube.com/watch?v=ve_o2kq4_jY)
