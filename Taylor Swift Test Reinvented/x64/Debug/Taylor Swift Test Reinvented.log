@@ -1,0 +1,6 @@
+﻿  Taylor Swift Test Reinvented.cpp
+C:\Users\S4vna\source\repos\Taylor-Swift-Test\Taylor Swift Test Reinvented\Taylor Swift Test Reinvented.cpp(163,8): warning C4804: >: небезопасное использование типа "bool" в операции
+C:\Users\S4vna\source\repos\Taylor-Swift-Test\Taylor Swift Test Reinvented\Taylor Swift Test Reinvented.cpp(166,8): warning C4804: >: небезопасное использование типа "bool" в операции
+C:\Users\S4vna\source\repos\Taylor-Swift-Test\Taylor Swift Test Reinvented\Taylor Swift Test Reinvented.cpp(169,9): warning C4804: >: небезопасное использование типа "bool" в операции
+C:\Users\S4vna\source\repos\Taylor-Swift-Test\Taylor Swift Test Reinvented\Taylor Swift Test Reinvented.cpp(172,9): warning C4804: >: небезопасное использование типа "bool" в операции
+  Taylor Swift Test Reinvented.vcxproj -> C:\Users\S4vna\source\repos\Taylor-Swift-Test\x64\Debug\Taylor Swift Test Reinvented.exe
