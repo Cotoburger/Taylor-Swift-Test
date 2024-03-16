@@ -9,12 +9,12 @@ int main() {
 	setlocale(LC_CTYPE, "ru_RU.UTF-8");
 	SetConsoleCP(CP_UTF8);
 	SetConsoleOutputCP(CP_UTF8);
-	cout << "Привет, это опрос!" << endl;
+	cout << "Welcome to the quiz about Taylor Swift!" << endl;
 	Sleep(500);
-	cout << "Сегодня мы проверим, насколько хорошо ты знаешь Тейлор Свифт!" << endl;
+	cout << "Today we'll test how well you know Taylor Swift!" << endl;
 	Sleep(2500);
 	cout << "\n---------------------------------------------------------------------------------" << endl;
-	cout << "Выполняется загрузка опроса...  ";
+	cout << "Quiz Loading...  ";
 	Sleep(500);
 	cout << "|||";
 	Sleep(250);
@@ -39,8 +39,8 @@ int main() {
 	system("cls"); // Очистить экран
 	int result = 1;
 	cout << "0. " << endl;
-	cout << "в какой стране живёт Тейлор Свифт?" << endl;
-	cout << "0 - Россия, 1 - Финляндия, 2 - США, 3 - Гренландия" << endl;
+	cout << "What country does Taylor Swift live in ? " << endl;
+	cout << "0 - Russia, 1 - Finland, 2 - USA, 3 - Greenland" << endl;
 	int zero;
 	cout << "0/1/2/3" << endl;
 	cin >> zero;
@@ -59,9 +59,9 @@ int main() {
 	}
 
 	cout << "1. " << endl;
-	cout << "Есть ли вы на r/TaylorSwift?" << endl;
+	cout << "Are you on r/TaylorSwift?" << endl;
 	int first;
-	cout << "Варианты ответа: 0/1" << endl;
+	cout << "0/1" << endl;
 	cin >> first;
 	system("cls"); // Очистить экран
 	if (first == 1) {
@@ -72,9 +72,9 @@ int main() {
 	}
 
 	cout << "2. " << endl;
-	cout << "Вы фанат Тейлор Свифт?" << endl;
+	cout << "Are you Taylor Swift fan?" << endl;
 	int second;
-	cout << "Варианты ответа: 0/1" << endl;
+	cout << "0/1" << endl;
 	cin >> second;
 	system("cls"); // Очистить экран
 	if (second == 1) {
@@ -85,9 +85,9 @@ int main() {
 	}
 
 	cout << "3. " << endl;
-	cout << "Родина(0) или Тейлор Свифт(1)?" << endl;
+	cout << "Motherland(0) or Taylor Swift(1)?" << endl;
 	int third;
-	cout << "Варианты ответа: 0/1" << endl;
+	cout << "0/1" << endl;
 	cin >> third;
 	system("cls"); // Очистить экран
 	if (third == 1) {
@@ -98,10 +98,10 @@ int main() {
 	}
 
 	cout << "4. " << endl;
-	cout << "Какая любимая порода котов у Тейлор Свифт?" << endl;
-	cout << "0 - Шотландская Вислоухая, 1 - Русская голубая, 2 - Мейнкун" << endl;
+	cout << "What is Taylor Swift's favorite cat breed?" << endl;
+	cout << "0 - Scottish Fold, 1 - Russian Blue, 2 - Maine Coon" << endl;
 	int four;
-	cout << "Варианты ответа: 0/1/2" << endl;
+	cout << "0/1/2" << endl;
 	cin >> four;
 	system("cls"); // Очистить экран
 	if (four == 2) {
@@ -115,9 +115,9 @@ int main() {
 	}
 
 	cout << "5. " << endl;
-	cout << "в каком году родилась Тейлор Свифт?" << endl;
+	cout << "What year was Taylor Swift born ? " << endl;
 	int five;
-	cout << "Например: 2024" << endl;
+	cout << "For example: 2024" << endl;
 	cin >> five;
 	system("cls"); // Очистить экран
 	if (five == 1989) {
@@ -128,10 +128,10 @@ int main() {
 	}
 
 	cout << "6. " << endl;
-	cout << "Какое альбомное произведение Тейлор Свифт признано самым продаваемым за первую неделю релиза в США ?" << endl;
+	cout << "Which album is Taylor Swift's best-selling album in its first week of release in the USA?" << endl;
 	cout << "0 - 1989, 1 - Reputation, 2 - Fearless (Taylor's Version)? 3 - Lover" << endl;
 	int six;
-	cout << "Варианты ответа: 0/1" << endl;
+	cout << "0/1/2/3" << endl;
 	cin >> six;
 	system("cls"); // Очистить экран
 	if (six == 3) {
@@ -148,8 +148,8 @@ int main() {
 	}
 
 	cout << "7. " << endl;
-	cout << "Тейлор Свифт это...  ?" << endl;
-	cout << "0 - Мужчина, 1 - Женщина, 2 - Девушка" << endl;
+	cout << "Taylor Swift is..." << endl;
+	cout << "0 - Man, 1 - Woman, 2 - Girl" << endl;
 	int seven;
 	cout << "0/1/2" << endl;
 	cin >> seven;
@@ -165,7 +165,7 @@ int main() {
 	}
 
 	cout << "8. " << endl;
-	cout << "Вы поддерживаете Специальную Военную Операцию?" << endl;
+	cout << "Do You support war in Ukraine" << endl;
 	int eight;
 	cout << "0/1" << endl;
 	cin >> eight;
@@ -177,7 +177,7 @@ int main() {
 		result = result + 2;
 	}
 
-	cout << "Почти готово!" << endl;
+	cout << "Almost done!" << endl;
 	int rate;
 	system("cls"); // Очистить экран
 	if (result < -4) {
@@ -199,11 +199,10 @@ int main() {
 		rate = 5;
 	}
 
-	Sleep(1000);
 	cout << "---------------------------------------------------------------------------------" << endl;
-	cout << "Подсчитываем баллы...  ";
-
+	cout << "Let's count the points...  ";
 	Sleep(500);
+
 	cout << "|||";
 	Sleep(250);
 	cout << "|||";
@@ -227,25 +226,25 @@ int main() {
 	system("cls"); // Очистить экран
 	string end;
 	cout << "---------------------------------------------------------------------------------" << endl;
-	cout << "Ваш результат: " << result << endl;
+	cout << "Your result: " << result << endl;
 	cout << "---------------------------------------------------------------------------------" << endl;
 	if (rate == 0) {
-		end = "Убей себя";
+		end = "Kill yourself";
 	}
 	if (rate == 1) {
-		end = "Вы очень плохо знаете Тейлор Свифт, ну вот прям ОЧЕНЬ ПЛОХО. \nВам уже ничего не поможет";
+		end = "You know Taylor Swift very poorly, like REALLY BADLY. \nNothing can help you anymore.";
 	}
 	if (rate == 2) {
-		end = "Вы очень плохо знаете Тейлор Свифт. \nРекомендую вам переслушать все её треки и просмотреть минимум 100 тиктоков в свифт-токе.";
+		end = "You know Taylor Swift very poorly. \nI recommend you to re-listen to all of her tracks and watch at least 100 TikToks in SwiftTok.";
 	}
 	if (rate == 3) {
-		end = "Вы знаете Тейлор Свифт на уровне обычного бича со свалки. \nРекомендую посмотреть в ютубе пару биографий и топов интересных фактов о Тейлор Свифт.";
+		end = "You know Taylor Swift at the level of an ordinary garbage dude. \nI recommend watching a couple of biographies and top interesting facts about Taylor Swift on YouTube.";
 	}
 	if (rate == 4) {
-		end = "Вы довольно таки неплохо знаете Тейлор Свифт. Но всё же, не идеально. \nЗакажите кружку с Тейлор Свифт.";
+		end = "You know Taylor Swift quite well. But still, not perfect. \nOrder a mug with Taylor Swift.";
 	}
 	if (rate == 5) {
-		end = "Вы отлично знаете Тейлор Свифт!. Настоящий Свифти!";
+		end = "You know Taylor Swift excellently! A true Swiftie!";
 	}
 	cout << end << endl;
 
@@ -253,7 +252,7 @@ int main() {
 		Sleep(1000);
 		cout << "\n\n" << endl;
 		cout << "---------------------------------------------------------------------------------" << endl;
-		cout << "Загрузка сертификата...  ";
+		cout << "Certificate loading...  ";
 		Sleep(500);
 		cout << "|||";
 		Sleep(250);
@@ -276,22 +275,24 @@ int main() {
 		cout << "|||" << endl;
 		Sleep(333);
 		cout << "\n" << endl;
-		cout << "_______________________________________" << endl;
-		cout << "|             Сертфикат               |" << endl;
-		cout << "|           ==============            |" << endl;
+		cout << "___________________________________________" << endl;
+		cout << "|               Certificate               |" << endl;
+		cout << "|              ==============             |" << endl;
+		cout << "|                                         |" << endl;
 		if (rate == 3) {
-			cout << "|   За неплохое прохождение опроса    |" << endl;
-			cout << "|       На знание Тейлор Свифт        |" << endl;
+			cout << "|   For a decent completion of the quiz   |" << endl;
+			cout << "|       On knowledge of Taylor Swift      |" << endl;
 		}
 		if (rate == 4) {
-			cout << "|    За хорошее прохождение опроса    |" << endl;
-			cout << "|       На знание Тейлор Свифт        |" << endl;
+			cout << "|    For a good completion of the quiz    |" << endl;
+			cout << "|       On knowledge of Taylor Swift      |" << endl;
 		}
 		if (rate == 5) {
-			cout << "| За ИЗУМИТЕЛЬНОЕ прохождение опроса  |" << endl;
-			cout << "|       На знание Тейлор Свифт        |" << endl;
+			cout << "|  For an AMAZING completion of the quiz  |" << endl;
+			cout << "|       On knowledge of Taylor Swift      |" << endl;
 		}
-		cout << "---------------------------------------" << endl;
+		cout << "|                                         |" << endl;
+		cout << "-------------------------------------------" << endl;
 		cout << "\n" << endl;
 		cout << "---------------------------------------------------------------------------------" << endl;
 	}
