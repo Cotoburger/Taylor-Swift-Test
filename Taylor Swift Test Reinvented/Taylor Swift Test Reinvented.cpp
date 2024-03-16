@@ -160,19 +160,19 @@ int main() {
 	if (result < -4) {
 		rate = 0;
 	}
-	if (0 > result > -4) {
+	else if (result >= -4 && result < 0) {
 		rate = 1;
 	}
-	if (6 > result > -1) {
+	else if (result >= 0 && result < 6) {
 		rate = 2;
 	}
-	if (10 > result > 5) {
+	else if (result >= 6 && result < 10) {
 		rate = 3;
 	}
-	if (13 > result > 9) {
+	else if (result >= 10 && result < 13) {
 		rate = 4;
 	}
-	if (result > 12) {
+	else if (result >= 13) {
 		rate = 5;
 	}
 
@@ -254,7 +254,7 @@ int main() {
 		Sleep(333);
 		cout << "\n" << endl;
 		cout << "_______________________________________" << endl;
-		cout << "|             Сертификат              |" << endl;
+		cout << "|             Сертфикат              |" << endl;
 		cout << "|           ==============            |" << endl;
 		if (rate == 3) {
 			cout << "|   За неплохое прохождение опроса    |" << endl;
