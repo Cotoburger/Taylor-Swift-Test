@@ -38,6 +38,26 @@ int main() {
 	Sleep(333);
 	system("cls"); // Очистить экран
 	int result = 1;
+	cout << "0. " << endl;
+	cout << "в какой стране живёт Тейлор Свифт?" << endl;
+	cout << "0 - Россия, 1 - Финляндия, 2 - США, 3 - Гренландия" << endl;
+	int zero;
+	cout << "0/1/2/3" << endl;
+	cin >> zero;
+	system("cls"); // Очистить экран
+	if (zero == 3) {
+		result = result - 1;
+	}
+	if (zero == 2) {
+		result = result + 2;
+	}
+	if (zero == 1) {
+		result = result - 1;
+	}
+	if (zero == 0) {
+		result = result - 2;
+	}
+
 	cout << "1. " << endl;
 	cout << "Есть ли вы на r/TaylorSwift?" << endl;
 	int first;
@@ -108,23 +128,23 @@ int main() {
 	}
 
 	cout << "6. " << endl;
-	cout << "в какой стране живёт Тейлор Свифт?" << endl;
-	cout << "0 - Россия, 1 - Финляндия, 2 - США, 3 - Гренландия" << endl;
+	cout << "Какое альбомное произведение Тейлор Свифт признано самым продаваемым за первую неделю релиза в США ?" << endl;
+	cout << "0 - 1989, 1 - Reputation, 2 - Fearless (Taylor's Version)? 3 - Lover" << endl;
 	int six;
-	cout << "0/1/2/3" << endl;
+	cout << "Варианты ответа: 0/1" << endl;
 	cin >> six;
 	system("cls"); // Очистить экран
 	if (six == 3) {
 		result = result - 1;
 	}
 	if (six == 2) {
-		result = result + 2;
+		result = result - 0;
 	}
 	if (six == 1) {
 		result = result - 1;
 	}
 	if (six == 0) {
-		result = result - 2;
+		result = result + 2;
 	}
 
 	cout << "7. " << endl;
@@ -246,7 +266,7 @@ int main() {
 		cout << "|||";
 		Sleep(100);
 		cout << "|||";
-		Sleep(500);
+		Sleep(500);     
 		cout << "|||";
 		Sleep(400);
 		cout << "|||";
