@@ -20,3 +20,5 @@ Scoring System: The scoring system is designed to accurately evaluate the user's
 Conditional Messaging: The program generates personalized messages based on the user's quiz score, offering feedback that is tailored to their performance. This adds a layer of precision by providing targeted guidance or encouragement based on the user's specific results.
 
 Overall, while the code may not employ cutting-edge technologies, it demonstrates effective use of basic techniques to create a user-friendly and precise quiz experience. The combination of interface management, timing controls, input validation, scoring mechanisms, and conditional messaging contributes to a technically sound and accurate quiz application.
+
+! [1234](https://www.youtube.com/watch?v=ve_o2kq4_jY)
