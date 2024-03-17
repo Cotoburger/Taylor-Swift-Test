@@ -1,7 +1,7 @@
 #include <iostream>
 #include <windows.h>
 #include <cstdlib> // Для использования функции system()
-
+#inclide <string
 using namespace std;
 
 int main() {
@@ -41,139 +41,139 @@ int main() {
 	cout << "0. " << endl;
 	cout << "What country does Taylor Swift live in ? " << endl;
 	cout << "0 - Russia, 1 - Finland, 2 - USA, 3 - Greenland" << endl;
-	int zero;
+	string zero;
 	cout << "0/1/2/3" << endl;
 	cin >> zero;
 	system("cls"); // Очистить экран
-	if (zero == 3) {
+	if (zero == "3") {
 		result = result - 1;
 	}
-	if (zero == 2) {
+	if (zero == "2") {
 		result = result + 2;
 	}
-	if (zero == 1) {
+	if (zero == "1") {
 		result = result - 1;
 	}
-	if (zero == 0) {
+	if (zero == "0") {
 		result = result - 2;
 	}
 
 	cout << "1. " << endl;
 	cout << "Are you on r/TaylorSwift?" << endl;
-	int first;
+	string first;
 	cout << "0/1" << endl;
 	cin >> first;
 	system("cls"); // Очистить экран
-	if (first == 1) {
+	if (first == "1") {
 		result = result + 2;
 	}
-	if (first == 0) {
+	if (first == "0") {
 		result = result - 1;
 	}
 
 	cout << "2. " << endl;
 	cout << "Are you Taylor Swift fan?" << endl;
-	int second;
+	string second;
 	cout << "0/1" << endl;
 	cin >> second;
 	system("cls"); // Очистить экран
-	if (second == 1) {
+	if (second == "1") {
 		result = result + 2;
 	}
-	if (second == 0) {
+	if (second == "0") {
 		result = result - 2;
 	}
 
 	cout << "3. " << endl;
 	cout << "Motherland(0) or Taylor Swift(1)?" << endl;
-	int third;
+	string third;
 	cout << "0/1" << endl;
 	cin >> third;
 	system("cls"); // Очистить экран
-	if (third == 1) {
+	if (third == "1") {
 		result = result + 2;
 	}
-	if (third == 0) {
+	if (third == "0") {
 		result = result + 1;
 	}
 
 	cout << "4. " << endl;
 	cout << "What is Taylor Swift's favorite cat breed?" << endl;
 	cout << "0 - Scottish Fold, 1 - Russian Blue, 2 - Maine Coon" << endl;
-	int four;
+	string four;
 	cout << "0/1/2" << endl;
 	cin >> four;
 	system("cls"); // Очистить экран
-	if (four == 2) {
+	if (four == "2") {
 		result = result - 0;
 	}
-	if (four == 1) {
+	if (four == "1") {
 		result = result - 1;
 	}
-	if (four == 0) {
+	if (four == "0") {
 		result = result + 1;
 	}
 
 	cout << "5. " << endl;
 	cout << "What year was Taylor Swift born ? " << endl;
-	int five;
+	string five;
 	cout << "For example: 2024" << endl;
 	cin >> five;
 	system("cls"); // Очистить экран
-	if (five == 1989) {
+	if (five == "1989") {
 		result = result + 2;
 	}
-	else if (five != 1989) {
+	else if (five != "1989") {
 		result = result - 2;
 	}
 
 	cout << "6. " << endl;
 	cout << "Which album is Taylor Swift's best-selling album in its first week of release in the USA?" << endl;
 	cout << "0 - 1989, 1 - Reputation, 2 - Fearless (Taylor's Version)? 3 - Lover" << endl;
-	int six;
+	string six;
 	cout << "0/1/2/3" << endl;
 	cin >> six;
 	system("cls"); // Очистить экран
-	if (six == 3) {
+	if (six == "3") {
 		result = result - 1;
 	}
-	if (six == 2) {
+	if (six == "2") {
 		result = result - 0;
 	}
-	if (six == 1) {
+	if (six == "1") {
 		result = result - 1;
 	}
-	if (six == 0) {
+	if (six == "0") {
 		result = result + 2;
 	}
 
 	cout << "7. " << endl;
 	cout << "Taylor Swift is..." << endl;
 	cout << "0 - Man, 1 - Woman, 2 - Girl" << endl;
-	int seven;
+	string seven;
 	cout << "0/1/2" << endl;
 	cin >> seven;
 	system("cls"); // Очистить экран
-	if (seven == 2) {
+	if (seven == "2") {
 		result = result + 2;
 	}
-	if (seven == 1) {
+	if (seven == "1") {
 		result = result + 0;
 	}
-	if (seven == 0) {
+	if (seven == "0") {
 		result = result - 1;
 	}
 
 	cout << "8. " << endl;
 	cout << "Do You support war in Ukraine" << endl;
-	int eight;
+	string eight;
 	cout << "0/1" << endl;
 	cin >> eight;
 	system("cls"); // Очистить экран
-	if (eight == 1) {
+	if (eight == "1") {
 		result = result - 1;
 	}
-	if (eight == 0) {
+	if (eight == "0") {
 		result = result + 2;
 	}
 
