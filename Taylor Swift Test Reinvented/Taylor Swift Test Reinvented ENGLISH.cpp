@@ -1,14 +1,11 @@
 #include <iostream>
 #include <windows.h>
 #include <cstdlib> // Для использования функции system()
-#inclide <string
+#inclide <string>
 using namespace std;
 
 int main() {
 	setlocale(LC_ALL, "Ukrainian");
-	setlocale(LC_CTYPE, "ru_RU.UTF-8");
-	SetConsoleCP(CP_UTF8);
-	SetConsoleOutputCP(CP_UTF8);
 	cout << "Welcome to the quiz about Taylor Swift!" << endl;
 	Sleep(500);
 	cout << "Today we'll test how well you know Taylor Swift!" << endl;
